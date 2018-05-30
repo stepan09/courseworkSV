@@ -48,6 +48,18 @@
               <arguments>install</arguments>
             </configuration>
           </execution>
+          <execution>
+            <id>npm install chalk</id>
+            <goals>
+              <goal>npm</goal>
+            </goals>
+            <!-- optional: default phase is "generate-resources" -->
+            <phase>generate-resources</phase>
+            <!-- Optional configuration which provides for running any npm command -->
+            <configuration>
+              <arguments>install</arguments>
+            </configuration>
+          </execution>
           <!-- Build and minify static files -->
           <execution>
             <id>npm run build</id>
