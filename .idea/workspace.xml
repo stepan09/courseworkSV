@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1392184-12c6-4e6b-bf00-eb61bd152c84" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sport-app/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sport-app/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sport-app/target/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sport-app/target/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sport-app/target/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sport-app/target/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sport-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sport-app/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/sport/target/" />
@@ -30,20 +26,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sport-app/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+            <state relative-caret-position="306">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sport-app/config/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="663">
+              <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sport-app/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#140#161#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,8 +119,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sport-app/build/dev-server.js" />
         <option value="$PROJECT_DIR$/sport-app/package.json" />
-        <option value="$PROJECT_DIR$/sport-app/pom.xml" />
         <option value="$PROJECT_DIR$/sport-app/config/index.js" />
+        <option value="$PROJECT_DIR$/sport-app/pom.xml" />
       </list>
     </option>
   </component>
@@ -150,6 +159,17 @@
             <path>
               <item name="coursework" type="b2602c69:ProjectViewProjectNode" />
               <item name="coursework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coursework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursework" type="462c0819:PsiDirectoryNode" />
+              <item name="sport-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coursework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursework" type="462c0819:PsiDirectoryNode" />
+              <item name="sport-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,15 +251,24 @@
       <option name="presentableId" value="Default" />
       <updated>1527698956261</updated>
       <workItem from="1527698963664" duration="7573000" />
-      <workItem from="1527746019054" duration="606000" />
+      <workItem from="1527746019054" duration="1206000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1527746940102</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527746940102</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8179000" />
+    <option name="totallyTimeSpent" value="8779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -257,10 +286,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34653464" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34653464" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -284,6 +313,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/sport" />
     </ignored-roots>
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -384,13 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sport-app/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sport-app/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
@@ -400,8 +424,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sport-app/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="663">
+          <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sport-app/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sport-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
